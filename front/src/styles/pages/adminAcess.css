@@ -79,12 +79,12 @@
 .formGroup-Credentials form input[type=submit]{
     cursor: pointer;
     height: 67px;
+    margin-top: 2.5rem;
+    
 }
 
-@media(min-width: 495px){
-    .page-AdminAcess .spacelogo logo{
-        position: absolute;
-        right: 0;
-        bottom: 0;
+@media(max-width: 910px){
+    #page-AdminAcess .spaceLogo .logo{
+       display: none;
     }
 }
