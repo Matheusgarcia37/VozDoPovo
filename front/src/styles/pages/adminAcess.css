@@ -5,7 +5,7 @@
 }
 
 #page-AdminAcess .content-wrapper {
-    width: 100%;
+    width: 95%;
     max-width: 488px;
     
     height: 100%;
@@ -19,7 +19,7 @@
     transform: translate(-50%, -50%);
 
     background-color: #FFF;
-    border-radius: .5rem;
+    border-radius: .8rem;
 }
 #page-AdminAcess .content-wrapper header{
     width: 100%;

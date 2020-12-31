@@ -17,9 +17,9 @@ function adminAcess(){
                         <div className="formGroup-Credentials">
                             <form action="" name="loginForm" id="login">
                                 <input type="text" name="UserName" placeholder="Seu nome de usuário" />
-                                <input type="text" name="Password" placeholder="Sua senha" />
+                                <input type="password" name="Password" placeholder="Sua senha" />
 
-                                <input type="submit" name="send" value="enviar" />
+                                <input type="submit" name="send" value="continuar" />
                             </form>
                         </div>
                     </div>
