@@ -8,6 +8,25 @@
     align-items: center;
 }
 
+#page-landing .content-wrapper{
+    position: relative;
+
+    width: 100%;
+    max-width: 1100px;
+
+    height: 100%;
+    max-height: 600px;
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background: url('../../images/landing.png') no-repeat right bottom;
+    /* <a href='https://www.freepik.com/vectors/people'>People vector created by pikisuperstar - www.freepik.com</a> */
+    background-size: 50%;
+}
+
 #page-landing .content-wrapper header{
     display: flex;
     align-items: baseline;
@@ -61,25 +80,6 @@
 
 #page-landing .content-wrapper main {
     max-width: 350px;
-}
-
-#page-landing .content-wrapper{
-    position: relative;
-
-    width: 100%;
-    max-width: 1100px;
-
-    height: 100%;
-    max-height: 600px;
-
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    justify-content: space-between;
-
-    background: url('../../images/landing.png') no-repeat right bottom;
-    /* <a href='https://www.freepik.com/vectors/people'>People vector created by pikisuperstar - www.freepik.com</a> */
-    background-size: 50%;
 }
 
 #page-landing .content-wrapper main h1 {
