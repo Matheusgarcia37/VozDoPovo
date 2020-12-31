@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import {FiArrowRight} from 'react-icons/fi';
 
@@ -16,14 +17,14 @@ function Landing() {
             <img src={icon} alt="icon" />
             <h2>Voz do povo</h2>
           </div>
-          <a href="" className="login-adm">
+          <Link to="" className="login-adm">
             <FiArrowRight size={15} /> Admin access
-          </a>
+          </Link>
         </header>
         <div id="buttonChoise">
-          <a href="">Denúncia</a>
-          <a href="">Sugestão</a>
-          <a href="">Índice de efetividade da gestão</a>
+          <Link to="/">Denúncia</Link>
+          <Link to="/">Sugestão</Link>
+          <Link to="/">Índice de efetividade da gestão</Link>
         </div>
         <main>
           <h1>Fale por todos</h1>
