@@ -17,7 +17,7 @@ function Landing() {
             <img src={icon} alt="icon" />
             <h2>Voz do povo</h2>
           </div>
-          <Link to="" className="login-adm">
+          <Link to="/adminAcess" className="login-adm">
             <FiArrowRight size={15} /> Admin access
           </Link>
         </header>
