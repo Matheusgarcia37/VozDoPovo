@@ -105,7 +105,7 @@
 }
 
 @media(max-width: 910px){
-    #page-AdminAcess .spaceLogo .logo{
+    #page-denunciations .spaceLogo .logo{
        display: none;
     }
 }
