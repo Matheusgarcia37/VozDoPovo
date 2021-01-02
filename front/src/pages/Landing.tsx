@@ -21,8 +21,8 @@ function Landing() {
             <FiArrowRight size={15} /> Admin access
           </Link>
         </header>
-        <div id="buttonChoise">
-          <Link to="/">Denúncia</Link>
+        <div className="buttonChoice">
+          <Link to="/denunciations">Denúncia</Link>
           <Link to="/">Sugestão</Link>
           <Link to="/">Índice de efetividade da gestão</Link>
         </div>
