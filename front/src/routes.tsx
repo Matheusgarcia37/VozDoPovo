@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import adminAcess from './pages/adminAcess';
 import denunciations from './pages/denunciations';
 import Landing from './pages/Landing';
