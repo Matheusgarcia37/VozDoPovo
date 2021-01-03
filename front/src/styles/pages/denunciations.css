@@ -105,7 +105,38 @@
 }
 
 @media(max-width: 910px){
+    
     #page-denunciations .spaceLogo .logo{
        display: none;
+    }
+
+    #page-denunciations .content-wrapper .buttonChoice{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 192px;
+
+        width: 100%;
+        margin-top: 0.8rem;
+        margin-bottom: 0.8rem;
+    }
+
+    #page-denunciations .content-wrapper .buttonChoice a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        text-decoration: none;
+        width: 80%;
+        height: 10vh;
+        background: #ffd666;
+        border-radius: 20px;
+    }
+
+    #page-denunciations .content-wrapper main .alert{
+        padding: 0;
+        width: 75%;
+        margin-top: 10%;
     }
 }

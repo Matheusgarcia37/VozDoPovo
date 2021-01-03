@@ -118,18 +118,18 @@
         margin-top: 5px;
     }
     
-    .content-wrapper #buttonChoice{
+    .content-wrapper .buttonChoice{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        min-height: 35vh;
+        min-height: 300px;
 
         margin-top: 0.8rem;
         margin-bottom: 0.8rem;
     }
 
-    .content-wrapper #buttonChoice a {
+    .content-wrapper .buttonChoice a {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -143,7 +143,7 @@
         transition: background-color 0.2s;
     }
 
-    .content-wrapper #buttonChoice a:hover {
+    .content-wrapper .buttonChoice a:hover {
         background: #96feff;
     }
 
